@@ -7,11 +7,3 @@ CREATE TABLE contacts (
     message TEXT,
 );
 
--- Insert some dummy data
-INSERT INTO contacts (name, email, subject, message) VALUES 
-('John Doe', 'john.doe@example.com', 'Inquiry', 'Hello, I have a question about your services.'),
-('Jane Smith', 'jane.smith@example.com', 'Feedback', 'Your website is fantastic!'),
-('Alice Johnson', 'alice.johnson@example.com', 'Support', 'I need help with my account.');
-
--- Check the content of the table
-SELECT * FROM contacts;
